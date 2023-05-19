@@ -146,8 +146,6 @@ a {
     position: relative;
 }
 
-.dcLogo {}
-
 .dcLogo img {
     position: absolute;
     top: 50%;

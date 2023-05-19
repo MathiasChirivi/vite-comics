@@ -26,6 +26,5 @@ export default {
     color: white;
     display: flex;
     align-items: center;
-    margin-left: 250px;
 }
 </style>

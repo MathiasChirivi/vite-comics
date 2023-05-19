@@ -3,6 +3,7 @@ import AppTitle from './components/AppTitle.vue'
 import AppMain from './components/AppMain.vue'
 import AppMainComics from './components/AppMainComics.vue'
 import AppFooterImg from './components/AppFooterImg.vue'
+import AppFooterFollow from './components/AppFooterFollow.vue'
 
 
 export default {
@@ -11,6 +12,7 @@ export default {
     AppMain,
     AppMainComics,
     AppFooterImg,
+    AppFooterFollow
   }
 }
 </script>
@@ -25,6 +27,7 @@ export default {
   </main>
   <footer>
     <AppFooterImg />
+    <AppFooterFollow />
   </footer>
 </template>
 
