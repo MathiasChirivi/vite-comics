@@ -52,6 +52,8 @@ export default {
 }
 
 .itemsComic {
+    width: 1300px;
+    margin: 0 auto;
     list-style: none;
     display: flex;
     justify-content: center;

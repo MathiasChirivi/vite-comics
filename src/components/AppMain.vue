@@ -21,6 +21,8 @@ export default {
 }
 
 .content {
+    width: 1400px;
+    margin: 0 auto;
     color: white;
     display: flex;
     align-items: center;

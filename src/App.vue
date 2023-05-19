@@ -2,12 +2,15 @@
 import AppTitle from './components/AppTitle.vue'
 import AppMain from './components/AppMain.vue'
 import AppMainComics from './components/AppMainComics.vue'
+import AppFooterImg from './components/AppFooterImg.vue'
+
 
 export default {
   components: {
     AppTitle,
     AppMain,
     AppMainComics,
+    AppFooterImg,
   }
 }
 </script>
@@ -21,7 +24,7 @@ export default {
     <AppMainComics />
   </main>
   <footer>
-
+    <AppFooterImg />
   </footer>
 </template>
 
