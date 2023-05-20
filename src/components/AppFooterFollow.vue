@@ -24,7 +24,7 @@ export default {
                 <ul class="socialItems">
                     <h3 class="followUs">FOLLOW US</h3>
                     <li v-for="social in socials" class="socialItemsFollow">
-                        <img :src="social" alt="">
+                        <img class="hoverImg" :src="social" alt="">
                     </li>
                 </ul>
             </div>
@@ -65,6 +65,10 @@ export default {
 
 .followUs {
     color: #0282F9;
+}
+
+.hoverImg {
+    cursor: pointer;
 }
 
 .socialItems {

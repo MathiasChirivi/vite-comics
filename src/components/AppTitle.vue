@@ -97,5 +97,10 @@ export default {
 a {
     text-decoration: none;
     color: #666867;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    border-bottom: 5px solid #0282F9;
 }
 </style>

@@ -132,6 +132,10 @@ a {
     color: grey;
 }
 
+a:hover {
+    color: #0282F9;
+}
+
 .marginTop {
     margin-top: 70px;
 }
