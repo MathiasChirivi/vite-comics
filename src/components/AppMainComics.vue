@@ -61,6 +61,7 @@ export default {
 }
 
 .itemsComicCentre {
+    width: calc(100% / 5);
     display: flex;
     justify-content: center;
     align-items: center;
