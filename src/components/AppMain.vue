@@ -8,16 +8,19 @@ export default {
 <template>
     <div class="container">
         <div class="content">
-            &#8594; Content goes here &#8592;
         </div>
     </div>
 </template>
 
 <style scoped>
 .container {
-    background-color: #1C1C1C;
-    height: 100px;
+    background-image: url("/img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
     display: grid;
+    color: white;
+
 }
 
 .content {
@@ -26,5 +29,9 @@ export default {
     color: white;
     display: flex;
     align-items: center;
+}
+
+.content img {
+    width: 250px;
 }
 </style>

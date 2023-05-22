@@ -77,6 +77,13 @@ export default {
 
 .hoverImg {
     cursor: pointer;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+
+.hoverImg:hover {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .socialItems {
