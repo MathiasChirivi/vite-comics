@@ -74,5 +74,13 @@ li img {
 
 .loadSlides {
     margin-top: 15px;
+
+    background-color: #0282F9;
+    width: 150px;
+    color: white;
+    border: 0px solid white;
+    height: 25px;
+    cursor: pointer;
+
 }
 </style>
