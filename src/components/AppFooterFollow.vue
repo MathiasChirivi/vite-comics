@@ -61,6 +61,14 @@ export default {
     background-color: #303030;
     color: white;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.btnFooter:hover {
+    background-color: #0282F9;
+    color: white;
+    border: 1px solid #0282F9;
+    transition: 1s;
 }
 
 .followUs {
