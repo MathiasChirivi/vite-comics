@@ -15,6 +15,7 @@ export default {
 
 <template>
     <div class="container">
+        <button class="currentSeries">CURRENT SERIES</button>
         <div class="containerItems">
             <ul class="itemsComic">
                 <li v-for="thumb in itemsComic" class="itemsComicCentre">
@@ -27,37 +28,59 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+$Background_color: #303030;
+$Height_Container: 750px;
+$width_Container: 1300px;
+$display_flex: flex;
+$Justify_center: center;
+$Align_center: center;
+$Flex_column: column;
+
 .container {
-    height: 750px;
-    background-color: #303030;
+    height: $Height_Container;
+    background-color: $Background_color;
+    position: relative;
+}
+
+.currentSeries {
+    position: absolute;
+    top: -3%;
+    left: 15%;
+    width: 200px;
+    background-color: #0282F9;
+    color: white;
+    border: 1px solid #0282F9;
+    height: 50px;
+    font-weight: bolder;
 }
 
 .containerItems {
-    width: 1300px;
+    width: $width_Container;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: $display_flex;
+    justify-content: $Justify_center;
+    align-items: $Align_center;
+    flex-direction: $Flex_column;
+    ;
 }
 
 .itemsComic {
-    width: 1300px;
+    width: $width_Container;
     padding-top: 50px;
     margin: 0 auto;
     list-style: none;
-    display: flex;
+    display: $display_flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: $Justify_center;
+    align-items: $Align_center;
 }
 
 .itemsComicCentre {
     height: calc(650px / 2);
     width: calc(1300px / 6);
-    display: flex;
-    flex-direction: column;
+    display: $display_flex;
+    flex-direction: $Flex_column;
     padding: 10px;
 }
 

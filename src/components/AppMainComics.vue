@@ -11,19 +11,19 @@ export default {
                     url: "#"
                 }, {
                     img: "/img/buy-comics-merchandise.png",
-                    text: "DIGITAL COMICS",
-                    url: "#"
-                }, {
-                    img: "/img/buy-comics-shop-locator.png",
-                    text: "DIGITAL COMICS",
+                    text: "DC MERCHANDISE",
                     url: "#"
                 }, {
                     img: "/img/buy-comics-subscriptions.png",
-                    text: "DIGITAL COMICS",
+                    text: "SUBSCRIPTION",
+                    url: "#"
+                }, {
+                    img: "/img/buy-comics-shop-locator.png",
+                    text: "COMIC SHOP LOCATOR",
                     url: "#"
                 }, {
                     img: "/img/buy-dc-power-visa.svg",
-                    text: "DIGITAL COMICS",
+                    text: "DC POWER VISA",
                     url: "#"
                 },
 
