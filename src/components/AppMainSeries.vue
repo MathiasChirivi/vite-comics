@@ -2,9 +2,9 @@
 
 export default {
     name: "AppMainSeries",
-    props: [
-        "itemsComic"
-    ],
+    props: {
+        itemsComic: Object,
+    },
     data() {
         return {
 
